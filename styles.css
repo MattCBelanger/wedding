@@ -9,9 +9,6 @@ h2, h3 {
   font-family: Arial, Helvetica, sans-serif;   
   font-weight: lighter;
 }
-body { 
-  margin: 2em; 
-}
 body, input[text], button { 
   color: #888; 
   font-family: Cambria, Georgia; 
@@ -139,4 +136,38 @@ nav a.router-link-active {
 /* everywhere else */
 * { 
   font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+
+.top-container{
+    background-size:cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/EdgeWalk-41.jpg');
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/EdgeWalk-41.jpg');
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/EdgeWalk-41.jpg');
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/EdgeWalk-41.jpg');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url('images/EdgeWalk-41.jpg');
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/EdgeWalk-41.jpg');
+    height: 500px;
+    display: flex;
+}
+.info-container{
+  height: 500px;
+  background-color: #FFD754;
+}
+.venue-container{
+    height: 500px;
+  background-color: lightgrey;
+}
+.three-container{
+   height: 500px;
+  background-color: #CD9F06;
+}
+.fourth-container{
+   height: 500px;
+  background-color: lightgrey;
+}
+button {
+  position: fixed;
 }
