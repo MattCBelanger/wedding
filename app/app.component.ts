@@ -35,11 +35,5 @@ import { PageScrollConfig } from 'ng2-page-scroll/ng2-page-scroll';
 export class AppComponent { 
     constructor() { 
         PageScrollConfig.defaultDuration = 500;
-      }
-
-//   public scrollElement() {
-//     let element = document.getElementById('venue');
-//     window.scrollTo(0, element.offsetTop, 500);
-//   }
-
+    }
 }
