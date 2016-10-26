@@ -8,27 +8,24 @@ import { PageScrollConfig } from 'ng2-page-scroll/ng2-page-scroll';
         <div class='container-fluid'>
             <div class='row'>
                 <div class='col-xs-10'>
-                   <a pageScroll href="#info"><button>Wedding</button></a>
+                    <a pageScroll href="#info"><button>Info</button></a>
+                    <a pageScroll href="#venue"><button>Venue</button></a>
+                    <a pageScroll href="#three"><button>Contact</button></a>
                 </div>
             </div>
         </div>
     </div>
     <div id='info' class='info-container'>
-        Date: 2o3842yo3r2g3
-        Reception: 23f23f2f32f
-        Time: 2342304
+    Date, Venue, Schedule?
     </div>
     <div id='venue' class='venue-container'>
-        DMontebbloe
-
+        Venue, alternate places to stay
     </div>
-    <div class='three-container'>
-        DMontebbloe
-
+    <div id='three' class='three-container'>
+        Menu? gift stuff? ( no gifts)
     </div>
     <div  class='fourth-container'>
-        DMontebbloe
-
+        dinner menu?
     </div>
 `
 })
