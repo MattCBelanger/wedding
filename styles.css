@@ -149,23 +149,23 @@ nav a.router-link-active {
     background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/EdgeWalk-41.jpg');
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url('images/EdgeWalk-41.jpg');
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/EdgeWalk-41.jpg');
-    height: 500px;
+    height: 100vh;
     display: flex;
 }
 .info-container{
-  height: 500px;
+   height: 100vh;
   background-color: #FFD754;
 }
 .venue-container{
-    height: 500px;
+   height: 100vh;
   background-color: lightgrey;
 }
 .three-container{
-   height: 500px;
+    height: 100vh;
   background-color: #CD9F06;
 }
 .fourth-container{
-   height: 500px;
+   height: 100vh;
   background-color: lightgrey;
 }
 /*button {
