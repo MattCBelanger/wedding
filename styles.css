@@ -138,36 +138,117 @@ nav a.router-link-active {
   font-family: Arial, Helvetica, sans-serif; 
 }
 
-
-
+body {
+  min-width: 800px;
+  overflow-x: scroll;
+  color:white;
+  font-style: 12px;
+  cursor: default;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wed-container{
+  min-width:800px;
+  overflow-x: scroll;
+}
+.top-navbar{
+  height: 60px;
+  z-index: 2;
+  position: absolute;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 800px;
+  padding: 0 20px;
+}
+.top-navbar .title {
+  float:left;
+  width:50%;
+  font-family: serif;
+}
+.top-navbar .nav-options{
+  float:right;
+  width: 50%;
+  text-align: right;
+}
+ .top-navbar .nav-options a {
+  color:white;
+  font-size: 1.2em;
+  padding: 5px 15px;
+  margin-right: 5px;
+  border-radius: 2px;
+  border: 1px outset white;
+  }
+  .top-navbar .nav-options a:hover{
+    text-decoration: none;
+    background-color: white;
+    color:black;
+  }
 .top-container{
-    background-size:cover;
-    background-position: center;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/EdgeWalk-41.jpg');
-    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/EdgeWalk-41.jpg');
-    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/EdgeWalk-41.jpg');
-    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/EdgeWalk-41.jpg');
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url('images/EdgeWalk-41.jpg');
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/EdgeWalk-41.jpg');
-    height: 100vh;
-    display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden; 
+  height: 100vh;
+  min-width: 800px;
+}
+.top-container img {
+  width: 100%;
+  min-width: 800px;
+  filter: brightness(50%);
 }
 .info-container{
    height: 100vh;
   background-color: #FFD754;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 25px;
+}
+.title {
+  font-size: 3em;
+}
+.content {
+   font-size: 2em;
+   text-align: center;
 }
 .venue-container{
    height: 100vh;
   background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:black;
+  padding: 0 25px;
 }
 .three-container{
-    height: 100vh;
+  height: 100vh;
   background-color: #CD9F06;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 25px;
 }
-.fourth-container{
+.misc-container{
    height: 100vh;
   background-color: lightgrey;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 25px;
 }
-/*button {
-  position: fixed;
-}*/
+.misc-container .content {
+  padding-bottom: 20px;
+}
+.fa-play-circle{
+  cursor: pointer;
+  position: absolute;
+}
+.viewHeight{
+  height: 100vh !important;
+}
