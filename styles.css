@@ -139,7 +139,7 @@ nav a.router-link-active {
 }
 
 body {
-  min-width: 800px;
+  min-width: 100vh;
   overflow-x: scroll;
   color:white;
   font-style: 12px;
@@ -159,7 +159,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-width: 800px;
+  min-width: 150vh;
   padding: 0 20px;
 }
 .top-navbar .title {
@@ -191,11 +191,11 @@ body {
   justify-content: center;
   overflow-y: hidden; 
   height: 100vh;
-  min-width: 800px;
+   min-width: 150vh;
 }
 .top-container img {
   width: 100%;
-  min-width: 800px;
+   min-width: 150vh;
   filter: brightness(50%);
 }
 .info-container{
