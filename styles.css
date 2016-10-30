@@ -133,21 +133,16 @@ nav a.router-link-active {
   border-radius: 4px 0 0 4px;
 }
 
-/* everywhere else */
-* { 
-  font-family: Arial, Helvetica, sans-serif; 
-}
-
 body {
-  min-width: 100vh;
+  min-width: 600px;
   overflow-x: scroll;
   color:white;
   font-style: 12px;
   cursor: default;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
 .wed-container{
-  min-width:800px;
+  min-width:600px;
   overflow-x: scroll;
 }
 .top-navbar{
@@ -159,22 +154,16 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-width: 150vh;
+  min-width: 600px;
   padding: 0 20px;
 }
-.top-navbar .title {
-  float:left;
-  width:50%;
-  font-family: serif;
-}
 .top-navbar .nav-options{
-  float:right;
-  width: 50%;
-  text-align: right;
+  width: 100%;
+  text-align: center;
 }
  .top-navbar .nav-options a {
   color:white;
-  font-size: 1.2em;
+  font-size: 1.5em;
   padding: 5px 15px;
   margin-right: 5px;
   border-radius: 2px;
@@ -185,38 +174,44 @@ body {
     background-color: white;
     color:black;
   }
+    .top-navbar .nav-options a:active, .top-navbar .nav-options a:focus {
+    text-decoration: none;
+  }
 .top-container{
   display: flex;
   align-items: center;
   justify-content: center;
   overflow-y: hidden; 
   height: 100vh;
-   min-width: 150vh;
+  min-width: 600px;
+}
+.top-container .title{
+    position: absolute;
 }
 .top-container img {
   width: 100%;
-   min-width: 150vh;
+  min-height: 500px;
+  min-width: 600px;
   filter: brightness(50%);
 }
 .info-container{
-   height: 100vh;
-  background-color: #FFD754;
+  height: 100vh;
+  background-color: white;
   display: flex;
-  justify-content: center;
+  text-align: left;
+  color:black;
   align-items: center;
-  flex-direction: column;
   padding: 0 25px;
 }
 .title {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 .content {
-   font-size: 2em;
-   text-align: center;
+   font-size: 1.5em;
 }
 .venue-container{
    height: 100vh;
-  background-color: lightgrey;
+  background-color: #FFDC64;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -226,7 +221,7 @@ body {
 }
 .three-container{
   height: 100vh;
-  background-color: #CD9F06;
+  background-color: lightgray;
     display: flex;
   justify-content: center;
   align-items: center;
@@ -235,10 +230,11 @@ body {
 }
 .misc-container{
    height: 100vh;
-  background-color: lightgrey;
+  background-color: #1264BF;
     display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-direction: column;
   padding: 0 25px;
 }
