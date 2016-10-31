@@ -14,7 +14,7 @@ import { PageScrollConfig } from 'ng2-page-scroll/ng2-page-scroll';
             </div>
         </div>
         <div class='top-container'>
-            <img [class]="classMap" (click)="clicked()" [src]="urlVariable" />
+            <img [class]="classMap" [src]="urlVariable" />
             <div class='title'> 
             Come join us and party!
             </div>
