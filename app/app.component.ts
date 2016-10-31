@@ -81,7 +81,6 @@ import { PageScrollConfig } from 'ng2-page-scroll/ng2-page-scroll';
             <a href='http://www.fairmont.com/montebello/' target=''_blank>Montebello Website</a>
           </div>
           <div class='content'>
-            We are not setting up a gift regsitery because our little boat can't hold anything more.
             Your presence at our wedding in the best present we could ask for. 
             If you did wish to contribute to our honeymoon it would be very appriciated!
           </div>
