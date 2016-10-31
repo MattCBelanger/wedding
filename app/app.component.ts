@@ -62,12 +62,15 @@ import { PageScrollConfig } from 'ng2-page-scroll/ng2-page-scroll';
                 </div>
             </div>
         </div>
-        <div id='info' class='three-container'>
+        <div id='info' class='booking-container'>
             <div class="title">
                 Booking Info
             </div>
+            <div class='content'>
+                We have a block of rooms resvered at Montebello for the wedding. We will be looking up alternatives in the area if you wish you not stay at the hotel. ( But it IS amazing! :D)
+           </div>
            <div class='content'>
-            Information for booking and code
+                Information for booking and discount code to come.
            </div>
         </div>
         <div id='misc' class='misc-container'>
@@ -81,8 +84,9 @@ import { PageScrollConfig } from 'ng2-page-scroll/ng2-page-scroll';
             Gifts
           </div>
           <div class='content'>
-            We are not setting up a gift regsitery becuase our little boat can't hold anything more,
-            Money is cool though.
+            We are not setting up a gift regsitery because our little boat can't hold anything more.
+            Your presence at our wedding in the best present we could ask for. 
+            If you did wish to contribute to our honeymoon it would be very appriciated!
           </div>
         </div>
     </div>

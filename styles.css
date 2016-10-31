@@ -201,13 +201,14 @@ body {
   text-align: left;
   color:black;
   align-items: center;
-  padding: 0 25px;
+  padding: 0 50px;
 }
 .title {
   font-size: 2.5em;
 }
 .content {
    font-size: 1.5em;
+   padding-top:15px;
 }
 .venue-container{
    height: 100vh;
@@ -217,16 +218,17 @@ body {
   align-items: center;
   flex-direction: column;
   color:black;
-  padding: 0 25px;
+  padding: 0 50px;
 }
-.three-container{
+.booking-container{
   height: 100vh;
   background-color: lightgray;
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 25px;
+  padding: 0 50px;
+  text-align: center;
 }
 .misc-container{
    height: 100vh;
@@ -236,7 +238,10 @@ body {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  padding: 0 25px;
+  padding: 0 50px;
+}
+.misc-container a{
+  color:black;
 }
 .misc-container .content {
   padding-bottom: 20px;
