@@ -78,10 +78,7 @@ import { PageScrollConfig } from 'ng2-page-scroll/ng2-page-scroll';
             Misc
           </div>
           <div class='content'>
-          <a href='http://www.fairmont.com/montebello/' target=''_blank>Montebello Website</a>
-          </div>
-        <div class='title'>
-            Gifts
+            <a href='http://www.fairmont.com/montebello/' target=''_blank>Montebello Website</a>
           </div>
           <div class='content'>
             We are not setting up a gift regsitery because our little boat can't hold anything more.

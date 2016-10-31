@@ -15,7 +15,7 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "webdriver:update": "webdriver-manager update",
-    "prod": "serve --port 80"
+    "prod": "tsc -w serve --port 80"
   },
   "keywords": [],
   "author": "",
