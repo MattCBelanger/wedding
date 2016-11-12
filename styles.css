@@ -148,11 +148,9 @@ body {
 .top-navbar{
   height: 60px;
   z-index: 2;
-  position: absolute;
+  position: relative;
+  top: -25vh;
   background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   padding: 0 20px;
 }

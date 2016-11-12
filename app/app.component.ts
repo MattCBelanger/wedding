@@ -5,6 +5,7 @@ import { PageScrollConfig } from 'ng2-page-scroll/ng2-page-scroll';
     selector: 'my-app',
     template: `
     <div class='wed-container'>
+        <div class='top-container'>
         <div class='top-navbar'>
             <div class='nav-options'>
                 <a pageScroll href="#where">Where</a>
@@ -13,7 +14,6 @@ import { PageScrollConfig } from 'ng2-page-scroll/ng2-page-scroll';
                 <a pageScroll href="#misc">Misc</a>
             </div>
         </div>
-        <div class='top-container'>
             <div class='title1'>
                 Tiia and Matt Wedding 
             </div>
@@ -121,7 +121,7 @@ import { PageScrollConfig } from 'ng2-page-scroll/ng2-page-scroll';
           </div>
           <div class='content'>
             Your presence at our wedding is the best gift we could ask for. 
-            If you wish to contribute to our honeymoon, it would be very appriciated!
+            If you wish to contribute to our honeymoon, it would be very appreciated!
           </div>
           <div class='content'>
             We are looking forward to seeing all of you!
